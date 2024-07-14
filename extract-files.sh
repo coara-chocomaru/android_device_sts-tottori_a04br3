@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=TAB-A04-BR3
+DEVICE=a04br3
 VENDOR=sts-tottori
 
 # Load extract_utils and do some sanity checks

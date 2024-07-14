@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/sts-tottori/TAB-A04-BR3
+DEVICE_PATH := device/sts-tottori/a04br3
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := TAB-A04-BR3
+TARGET_BOOTLOADER_BOARD_NAME := a04br3
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -44,8 +44,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x0df88000
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := TAB-A04-BR3_defconfig
-TARGET_KERNEL_SOURCE := kernel/sts-tottori/TAB-A04-BR3
+TARGET_KERNEL_CONFIG := a04br3_defconfig
+TARGET_KERNEL_SOURCE := kernel/sts-tottori/a04br3
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

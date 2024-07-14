@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from TAB-A04-BR3 device
-$(call inherit-product, device/sts-tottori/TAB-A04-BR3/device.mk)
+# Inherit from a04br3 device
+$(call inherit-product, device/sts-tottori/a04br3/device.mk)
 
-PRODUCT_DEVICE := TAB-A04-BR3
-PRODUCT_NAME := omni_TAB-A04-BR3
+PRODUCT_DEVICE := a04br3
+PRODUCT_NAME := omni_a04br3
 PRODUCT_BRAND := benesse
 PRODUCT_MODEL := TAB-A03-BR3
 PRODUCT_MANUFACTURER := sts-tottori
