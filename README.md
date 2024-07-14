@@ -1,0 +1,1 @@
+# android_device_sts-tottori_a04br3
