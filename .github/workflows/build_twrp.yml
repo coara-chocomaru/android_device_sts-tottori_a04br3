@@ -8,7 +8,7 @@ on:
 env:
   MANIFEST_URL: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
   MANIFEST_BRANCH: 'twrp-7.1'
-  DEVICE_TREE_URL: 'https://github.com/mouseos/android_device_sts-tottori_a04br3'
+  DEVICE_TREE_URL: 'https://github.com/mouseos/android_device_sts_a04br3'
   DEVICE_TREE_BRANCH: 'main'
   DEVICE_PATH: 'device/sts/a04br3'
   DEVICE_NAME: 'a04br3'

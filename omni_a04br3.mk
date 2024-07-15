@@ -13,15 +13,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from a04br3 device
-$(call inherit-product, device/sts-tottori/a04br3/device.mk)
+$(call inherit-product, device/sts/a04br3/device.mk)
 
 PRODUCT_DEVICE := a04br3
 PRODUCT_NAME := omni_a04br3
 PRODUCT_BRAND := benesse
 PRODUCT_MODEL := TAB-A03-BR3
-PRODUCT_MANUFACTURER := sts-tottori
+PRODUCT_MANUFACTURER := sts
 
-PRODUCT_GMS_CLIENTID_BASE := android-sts-tottori
+PRODUCT_GMS_CLIENTID_BASE := android-sts
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="TAB-A04-BR3-user 7.0 01.06.000 01.06.000 release-keys"
