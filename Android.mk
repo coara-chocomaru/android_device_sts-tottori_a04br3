@@ -7,9 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-export TARGET_GLOBAL_CFLAGS := -Os -ffunction-sections -fdata-sections
-export TARGET_GLOBAL_LDFLAGS := -Wl,--gc-sections
-
 ifeq ($(TARGET_DEVICE),a04br3)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
