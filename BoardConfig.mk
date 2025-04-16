@@ -79,6 +79,7 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_THEME := portrait_mdpi
 TW_EXTRA_LANGUAGES := false
+TW_USE_INPUT_EVENTS := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_BASH := true
