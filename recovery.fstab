@@ -2,6 +2,9 @@
 /data            ext4     /dev/block/platform/bootdevice/by-name/userdata     flags=display=data
 /cache           ext4     /dev/block/platform/bootdevice/by-name/cache        flags=display=cache
 /factory         ext4     /dev/block/platform/bootdevice/by-name/factory      flags=display=factory
+/external_sd     auto     /dev/block/mmcblk1p1       /dev/block/mmcblk1       flags=storage;removable
+auto             vfat     /devices/platform/soc/mt_usb*                       flags=display=auto
+auto             vfat     /devices/platform/mt_usb*                           flags=display=auto
 auto             vfat     /devices/platform/soc/11130000.mmc*                 flags=display=auto
 auto             vfat     /devices/platform/mt_usb*                           flags=display=auto
 auto             vfat     /devices/platform/soc/11190000.usb*                 flags=display=auto
