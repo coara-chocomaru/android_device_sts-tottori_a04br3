@@ -102,4 +102,6 @@ TW_NO_BZIP2 := true
 TW_NO_USB_STORAGE := true
 TW_HAS_MTP := false
 TW_DEFAULT_LANGUAGE := en
-
+TW_EXCLUDE_AWK := true
+TW_EXCLUDE_GZIP := true
+TW_EXCLUDE_XZ := true
