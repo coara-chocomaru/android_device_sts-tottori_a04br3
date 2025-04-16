@@ -37,6 +37,7 @@ on init
     export EXTERNAL_STORAGE /sdcard
 
     mkdir /system
+    mount ext4 /dev/block/platform/bootdevice/by-name/system /system
     mkdir /data
     mkdir /cache
     mkdir /sideload
