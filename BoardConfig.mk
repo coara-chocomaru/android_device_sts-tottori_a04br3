@@ -6,7 +6,12 @@
 #
 
 DEVICE_PATH := device/sts/a04br3
-
+BOARD_VENDOR := sts
+BOARD_DEVICE := a04br3
+TARGET_BUILD_64BIT := true
+TARGET_SUPPORTS_64_BIT_APPS := true 
+TARGET_IS_64_BIT := true
+TARGET_USES_64_BIT_BINDER := true
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -25,6 +30,9 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+AB_OTA_UPDATER := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := a04br3
 TARGET_NO_BOOTLOADER := true
