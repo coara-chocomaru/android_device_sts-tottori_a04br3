@@ -6,6 +6,9 @@
 #
 
 DEVICE_PATH := device/sts/a04br3
+
+
+
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 ENABLE_CPUSETS := true
@@ -113,7 +116,7 @@ TW_NO_EXFAT_FUSE := false
 TW_NO_BZIP2 := true
 TW_NO_USB_STORAGE := false
 TW_HAS_MTP := true
-TW_DEFAULT_LANGUAGE := en
+TW_DEFAULT_LANGUAGE := ja
 TW_EXCLUDE_AWK := false
 TW_EXCLUDE_GZIP := false
 TW_EXCLUDE_XZ := true
