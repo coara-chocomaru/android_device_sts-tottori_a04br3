@@ -10,11 +10,6 @@ BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
-TW_OVERRIDE_SYSTEM_PROPS := \
-ro.build.product="TAB-A04-BR3" \
-ro.product.board="TAB-A04-BR3" \
-ro.product.device="TAB-A04-BR3"
-
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
