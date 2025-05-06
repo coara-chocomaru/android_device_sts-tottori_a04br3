@@ -10,7 +10,6 @@ BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
-AB_OTA_UPDATER := true
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
