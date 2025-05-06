@@ -14,7 +14,6 @@ env:
   DEVICE_NAME: 'a04br3'
   MAKEFILE_NAME: 'omni_a04br3'
   BUILD_TARGET: 'recovery'
-
 jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
